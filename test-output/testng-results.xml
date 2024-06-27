@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T11:35:46 IST" name="Suite" finished-at="2024-06-17T11:36:24 IST" duration-ms="38655">
+    <groups>
+      <group name="Error HandlerTest">
+        <method signature="EcommerceTestAssertionTest.errorValidationTest()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest@7e5d9a50]" name="errorValidationTest" class="eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest"/>
+      </group> <!-- Error HandlerTest -->
+      <group name="Purchase">
+        <method signature="EcommerceApplicationTest.application(java.util.HashMap)[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" name="application" class="eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-06-17T11:35:46 IST" name="EcommerceApplicationTest" finished-at="2024-06-17T11:36:16 IST" duration-ms="30681">
+      <class name="eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest">
+        <test-method is-config="true" signature="landingPages()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:35:46 IST" name="landingPages" finished-at="2024-06-17T11:35:52 IST" duration-ms="5753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPages -->
+        <test-method signature="application(java.util.HashMap)[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:35:52 IST" name="application" data-provider="dataProvide" finished-at="2024-06-17T11:36:01 IST" duration-ms="8959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Naveen0071@, email=hnaveen@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- application -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:36:01 IST" name="closeTab" finished-at="2024-06-17T11:36:01 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="landingPages()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:36:01 IST" name="landingPages" finished-at="2024-06-17T11:36:03 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPages -->
+        <test-method signature="application(java.util.HashMap)[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:36:03 IST" name="application" data-provider="dataProvide" finished-at="2024-06-17T11:36:13 IST" duration-ms="9915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Mancon@1, email=man1con@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- application -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:36:13 IST" name="closeTab" finished-at="2024-06-17T11:36:13 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="landingPages()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:36:13 IST" name="landingPages" finished-at="2024-06-17T11:36:15 IST" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPages -->
+        <test-method signature="orderapplication()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:36:15 IST" name="orderapplication" finished-at="2024-06-17T11:36:16 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderapplication -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest@1f6c9cd8]" started-at="2024-06-17T11:36:16 IST" name="closeTab" finished-at="2024-06-17T11:36:16 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+      </class> <!-- eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest -->
+    </test> <!-- EcommerceApplicationTest -->
+    <test started-at="2024-06-17T11:36:17 IST" name="EcommerceTestAssertionTest" finished-at="2024-06-17T11:36:24 IST" duration-ms="7466">
+      <class name="eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest">
+        <test-method is-config="true" signature="landingPages()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest@7e5d9a50]" started-at="2024-06-17T11:36:17 IST" name="landingPages" finished-at="2024-06-17T11:36:19 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPages -->
+        <test-method signature="errorValidate()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest@7e5d9a50]" started-at="2024-06-17T11:36:19 IST" name="errorValidate" finished-at="2024-06-17T11:36:21 IST" duration-ms="1834" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button _ngcontent-uvg-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1280, 27). Other element would receive the click: <div _ngcontent-uvg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7cf1fcf34d0ba3964f506a9d47f9578, clickElement {id=f.22D5FB2FEE1EEB4CEFB2BC4F66C1A901.d.66D88E2C4702FB94FC1466E020C6D557.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\NAVEEN\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49254}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49254/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7cf1fcf34d0ba3964f506a9d47f9578)] -> xpath: //button[@routerlink='/dashboard/cart']]
+Session ID: a7cf1fcf34d0ba3964f506a9d47f9578]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-uvg-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1280, 27). Other element would receive the click: <div _ngcontent-uvg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7cf1fcf34d0ba3964f506a9d47f9578, clickElement {id=f.22D5FB2FEE1EEB4CEFB2BC4F66C1A901.d.66D88E2C4702FB94FC1466E020C6D557.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\NAVEEN\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49254}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49254/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7cf1fcf34d0ba3964f506a9d47f9578)] -> xpath: //button[@routerlink='/dashboard/cart']]
+Session ID: a7cf1fcf34d0ba3964f506a9d47f9578
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at eCommerceFirstProject.FrameWorkSeleniumTest.ProductCatalogue.addToCart(ProductCatalogue.java:53)
+at eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest.errorValidate(EcommerceTestAssertionTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidate -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest@7e5d9a50]" started-at="2024-06-17T11:36:22 IST" name="closeTab" finished-at="2024-06-17T11:36:22 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="landingPages()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest@7e5d9a50]" started-at="2024-06-17T11:36:22 IST" name="landingPages" finished-at="2024-06-17T11:36:24 IST" duration-ms="1855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPages -->
+        <test-method signature="errorValidationTest()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest@7e5d9a50]" started-at="2024-06-17T11:36:24 IST" name="errorValidationTest" finished-at="2024-06-17T11:36:24 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationTest -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest@7e5d9a50]" started-at="2024-06-17T11:36:24 IST" name="closeTab" finished-at="2024-06-17T11:36:24 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+      </class> <!-- eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest -->
+    </test> <!-- EcommerceTestAssertionTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+	<!--<groups>
+		<run>
+			<include name="Error HandlerTest" />
+		</run>
+	</groups>-->
+	<test thread-count="5" name="EcommerceApplicationTest">
+		<classes>
+			<class
+				name="eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+
+	<!-- Scecond test to know the which element we are testing-->
+
+	<test thread-count="5" name="EcommerceTestAssertionTest">
+		<classes>
+			<class
+				name="eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

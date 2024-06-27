@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">EcommerceApplicationTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">30,681</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">EcommerceTestAssertionTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,466</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">38,147</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">EcommerceApplicationTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest</td><td><a href="#m0">application</a></td><td rowspan="2">1718604352287</td><td rowspan="2">8959</td></tr><tr class="passedeven"><td><a href="#m1">application</a></td></tr><tr class="passedeven"><td><a href="#m2">orderapplication</a></td><td rowspan="1">1718604375865</td><td rowspan="1">723</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">EcommerceTestAssertionTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest</td><td><a href="#m3">errorValidate</a></td><td rowspan="1">1718604379930</td><td rowspan="1">1834</td></tr><tr><th colspan="4">EcommerceTestAssertionTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest</td><td><a href="#m4">errorValidationTest</a></td><td rowspan="1">1718604384056</td><td rowspan="1">483</td></tr></tbody>
+</table>
+<h2>EcommerceApplicationTest</h2><h3 id="m0">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest#application</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{pass=Naveen0071@, email=hnaveen@gmail.com, productName=ZARA COAT 3}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest#application</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{pass=Mancon@1, email=man1con@gmail.com, productName=ADIDAS ORIGINAL}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceApplicationTest#orderapplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EcommerceTestAssertionTest</h2><h3 id="m3">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest#errorValidate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-uvg-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1280, 27). Other element would receive the click: &lt;div _ngcontent-uvg-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=125.0.6422.142)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7cf1fcf34d0ba3964f506a9d47f9578, clickElement {id=f.22D5FB2FEE1EEB4CEFB2BC4F66C1A901.d.66D88E2C4702FB94FC1466E020C6D557.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\NAVEEN\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49254}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49254/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7cf1fcf34d0ba3964f506a9d47f9578)] -&gt; xpath: //button[@routerlink=&apos;/dashboard/cart&apos;]]
+Session ID: a7cf1fcf34d0ba3964f506a9d47f9578
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at eCommerceFirstProject.FrameWorkSeleniumTest.ProductCatalogue.addToCart(ProductCatalogue.java:53)
+	at eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest.errorValidate(EcommerceTestAssertionTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">eCommerceFirstProject.FrameWorkSeleniumTest.EcommerceTestAssertionTest#errorValidationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
